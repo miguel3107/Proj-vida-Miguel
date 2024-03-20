@@ -18,3 +18,47 @@ body{
 .titulo-principal span {
        color: var(--verde)
 }
+.titulo-principal{
+     text-align: left;
+    width: 100%;
+    font-size: 32px;
+} 
+
+.conteudo-principal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1240px;
+    width: 100%;
+    margin: 0;
+}
+
+.botao{
+    font-family: "chakra petch" , sans-serif;
+    background-color: var(--botao-inativo);
+    color: var(--branco);
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+    font-size: 18px;
+    align-items: center;
+    width: 100%;
+    border-bottom: 4px solid var(--botao-ativo);
+    border-left: 2px solid var(--botao-ativo);
+    border-right: 2px solid var(--botao-ativo);
+    border: none;
+}
+    .botao:first-child{
+        border-radius: 40px 40px 0 0;
+    }
+
+    .botoes{
+        display: block;
+    }
+
+ @media screen  and (min-width: 768px) {
+       .botoes{
+           display: flex;
+    
+ }
